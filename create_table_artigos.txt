@@ -1,0 +1,8 @@
+CREATE TABLE `artigos` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `titulo` varchar(220) COLLATE utf8_unicode_ci NOT NULL,
+  `conteudo` varchar(220) COLLATE utf8_unicode_ci NOT NULL,
+  `created` datetime NOT NULL,
+  `modified` datetime DEFAULT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=MyISAM AUTO_INCREMENT=3 DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci	
